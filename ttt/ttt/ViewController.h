@@ -2,7 +2,7 @@
 //  ViewController.h
 //  ttt
 //
-//  Created by home on 2017/3/14.
+//  Created by jinhuadiqigan on 2017/3/14.
 //  Copyright © 2017年 庆鹏王. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-

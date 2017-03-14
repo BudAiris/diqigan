@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A76BAAD91E77867B00B8ABE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BAAD81E77867B00B8ABE1 /* ViewController.m */; };
 		F46AB9481E777EE2004DB546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F46AB9471E777EE2004DB546 /* main.m */; };
 		F46AB94B1E777EE2004DB546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F46AB94A1E777EE2004DB546 /* AppDelegate.m */; };
-		F46AB94E1E777EE2004DB546 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46AB94D1E777EE2004DB546 /* ViewController.m */; };
 		F46AB9511E777EE2004DB546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46AB94F1E777EE2004DB546 /* Main.storyboard */; };
 		F46AB9541E777EE2004DB546 /* ttt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F46AB9521E777EE2004DB546 /* ttt.xcdatamodeld */; };
 		F46AB9561E777EE2004DB546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46AB9551E777EE2004DB546 /* Assets.xcassets */; };
@@ -28,12 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A76BAAD71E77867B00B8ABE1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A76BAAD81E77867B00B8ABE1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F46AB9431E777EE2004DB546 /* ttt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ttt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46AB9471E777EE2004DB546 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F46AB9491E777EE2004DB546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F46AB94A1E777EE2004DB546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F46AB94C1E777EE2004DB546 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F46AB94D1E777EE2004DB546 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F46AB9501E777EE2004DB546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F46AB9531E777EE2004DB546 /* ttt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ttt.xcdatamodel; sourceTree = "<group>"; };
 		F46AB9551E777EE2004DB546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 			children = (
 				F46AB9491E777EE2004DB546 /* AppDelegate.h */,
 				F46AB94A1E777EE2004DB546 /* AppDelegate.m */,
-				F46AB94C1E777EE2004DB546 /* ViewController.h */,
-				F46AB94D1E777EE2004DB546 /* ViewController.m */,
+				A76BAAD71E77867B00B8ABE1 /* ViewController.h */,
+				A76BAAD81E77867B00B8ABE1 /* ViewController.m */,
 				F46AB94F1E777EE2004DB546 /* Main.storyboard */,
 				F46AB9551E777EE2004DB546 /* Assets.xcassets */,
 				F46AB9571E777EE2004DB546 /* LaunchScreen.storyboard */,
@@ -217,8 +217,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F46AB9541E777EE2004DB546 /* ttt.xcdatamodeld in Sources */,
-				F46AB94E1E777EE2004DB546 /* ViewController.m in Sources */,
 				F46AB94B1E777EE2004DB546 /* AppDelegate.m in Sources */,
+				A76BAAD91E77867B00B8ABE1 /* ViewController.m in Sources */,
 				F46AB9481E777EE2004DB546 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +412,7 @@
 				F46AB96A1E777EE2004DB546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F46AB96B1E777EE2004DB546 /* Build configuration list for PBXNativeTarget "tttUITests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				F46AB96D1E777EE2004DB546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
